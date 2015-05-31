@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2456FF2A-E0A2-41A3-A4AD-BF9AF2F26D64}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Moosta.FileIO</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Moosta.Common">
+      <HintPath>..\..\Moosta.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="CTUtilCLR">
+      <HintPath>..\..\CTUtilCLR.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Balthasar.IO\Cini.cs" />
+    <Compile Include="Balthasar.IO\PackageLang.cs" />
+    <Compile Include="Balthasar.IO\PMXChecker.cs" />
+    <Compile Include="Moosta.FileIO.Model\BoneAssigner.cs" />
+    <Compile Include="Moosta.FileIO.Model\MMDBone.cs" />
+    <Compile Include="Moosta.FileIO.Model\MMDBoneType.cs" />
+    <Compile Include="Moosta.FileIO.Model\MMDDanceModel.cs" />
+    <Compile Include="Moosta.FileIO.Model\MMDHeader.cs" />
+    <Compile Include="Moosta.FileIO.Model\MMDMaterial.cs" />
+    <Compile Include="Moosta.FileIO.Model\MMDMatgerialMorphData.cs" />
+    <Compile Include="Moosta.FileIO.Model\MMDModelLoader.cs" />
+    <Compile Include="Moosta.FileIO.Model\MMDMorph.cs" />
+    <Compile Include="Moosta.FileIO.Model\MMDMorphType.cs" />
+    <Compile Include="Moosta.FileIO.Model\MMDSphereType.cs" />
+    <Compile Include="Moosta.FileIO.Model\PMDEdgeFlag.cs" />
+    <Compile Include="Moosta.FileIO.Model\PMDModelLoader.cs" />
+    <Compile Include="Moosta.FileIO.Model\PMXModelLoader.cs" />
+    <Compile Include="Moosta.FileIO.Motion\DanceModelInfoSerializer.cs" />
+    <Compile Include="Moosta.FileIO.Motion\DanceMotionFactoryFromCSV.cs" />
+    <Compile Include="Moosta.FileIO.Motion\DanceMotionFactoryFromMFURI.cs" />
+    <Compile Include="Moosta.FileIO.Motion\DanceMotionFactoryFromMVH.cs" />
+    <Compile Include="Moosta.FileIO.Motion\MFuriKeyFrame.cs" />
+    <Compile Include="Moosta.FileIO.Motion\MFuriKeyFrameList.cs" />
+    <Compile Include="Moosta.FileIO.Motion\MotionPackReader.cs" />
+    <Compile Include="Moosta.FileIO.Stage\StageModelFromOBJ.cs" />
+    <Compile Include="Moosta.FileIO\AbstractSerializer.cs" />
+    <Compile Include="Moosta.FileIO\BvhChannels.cs" />
+    <Compile Include="Moosta.FileIO\BvhFormat.cs" />
+    <Compile Include="Moosta.FileIO\BvhMotion.cs" />
+    <Compile Include="Moosta.FileIO\BvhNode.cs" />
+    <Compile Include="Moosta.FileIO\DanceMotionFactoryFromBVH.cs" />
+    <Compile Include="Moosta.FileIO\IReadingSession.cs" />
+    <Compile Include="Moosta.FileIO\ISerializer.cs" />
+    <Compile Include="Moosta.FileIO\IWritingSession.cs" />
+    <Compile Include="Moosta.FileIO\Serialization.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

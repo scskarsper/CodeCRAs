@@ -1,0 +1,7 @@
+F:\Download\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\NFINDT\Moosta.FileIO\bin\Debug\Moosta.FileIO.dll
+F:\Download\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\NFINDT\Moosta.FileIO\bin\Debug\Moosta.FileIO.pdb
+F:\Download\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\NFINDT\Moosta.FileIO\bin\Debug\CTUtilCLR.dll
+F:\Download\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\NFINDT\Moosta.FileIO\bin\Debug\Moosta.Common.dll
+F:\Download\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\NFINDT\Moosta.FileIO\bin\Debug\Charamin.UI.dll
+F:\Download\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\NFINDT\Moosta.FileIO\obj\x86\Debug\Moosta.FileIO.dll
+F:\Download\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\Studio_zh-CHS_1.0.6.8_OMP_1.1.7.2\NFINDT\Moosta.FileIO\obj\x86\Debug\Moosta.FileIO.pdb
